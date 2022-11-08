@@ -1,0 +1,41 @@
+// FONT VARIABLES
+$primaryFont: 'Arial', 'sans-serif';
+$primaryColor: grey;
+
+.logo{
+    width: 25%;
+}
+
+.nav-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+
+    .nav-ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .logo{
+            width: 10%;
+        }
+
+        .nav-links{
+            display: flex;
+            list-style: none;
+            flex-direction: flex-end;
+        }
+
+        .nav-links a{
+            display: flex;
+            text-decoration: none;
+            margin: 0 2rem 0 2rem;
+            font-family: $primaryFont;
+            color: $primaryColor;
+        }
+    }
+
+   
+}
