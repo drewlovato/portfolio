@@ -1,14 +1,18 @@
 import React from "react";
 import ProfilePhoto from "../../assets/ProfilePhoto.jpg";
 
-function About() {
+function Resume() {
   // The return statement contains something called "JSX"
   // JSX is a syntax extension to Javascript that allows us to write HTML inside Javascript
   // Expressions in JSX should be placed in curly braces {}
   return (
     <div className="about-section">
-      <img src={ProfilePhoto}></img>
-      <p>
+      <img
+        src={ProfilePhoto}
+        alt="Andrew Lovato"
+        className="profile-photo"
+      ></img>
+      <p className="about-p">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -21,4 +25,4 @@ function About() {
   );
 }
 
-export default About;
+export default Resume;

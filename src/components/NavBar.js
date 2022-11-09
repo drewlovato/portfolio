@@ -13,13 +13,13 @@ function NavBar() {
         </a>
         <div className="nav-links">
           <a href="#about">
-            <li>ABOUT</li>
+            <li>HOME</li>
           </a>
-          <a href="#portfolio">
+          <a href="#work">
             <li>WORK</li>
           </a>
-          <a href="#contact">
-            <li>CONTACT</li>
+          <a href="#resume">
+            <li>RESUME</li>
           </a>
         </div>
       </ul>

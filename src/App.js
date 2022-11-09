@@ -1,18 +1,12 @@
+// Imports for All Styles
 import "./scss/allStyles.scss";
-import NavBar from "./components/NavBar.js";
-import About from "./components/About.js";
 
+// Imports for ./components/pages
+import PageLayout from "./components/PageLayout.js";
+
+// Function that creates Application Layout
 function App() {
-  return (
-    <>
-      <header className="app-header">
-        <NavBar />
-      </header>
-      <body className="app-body">
-        <About />
-      </body>
-    </>
-  );
+  return <PageLayout />;
 }
 
 export default App;
