@@ -1,21 +1,22 @@
+import React from "react";
 import SingleProject from "../SingleProject";
 
 import { projects } from "../data/ProjectData";
 
-export default function Work() {
+function Work() {
   return (
     <>
       <section className="work-section">
         <h1>Work</h1>
         <div className="work-cards">
-          {projects.map((project) => (
+          {projects.map((projects) => (
             <SingleProject
-              title={project.title}
-              url={project.url}
-              image={project.image}
-              description={project.description}
-              technologies={project.technologies}
-              GitHubRepp={project.GitHubRepo}
+              title={projects.title}
+              url={projects.url}
+              image={projects.image}
+              description={projects.description}
+              technologies={projects.technologies}
+              GitHubRepp={projects.GitHubRepo}
             />
           ))}
         </div>
@@ -23,3 +24,5 @@ export default function Work() {
     </>
   );
 }
+
+export default Work;

@@ -8,18 +8,18 @@ function NavBar() {
   return (
     <div className="nav-section">
       <ul className="nav-ul">
-        <a href="#home">
+        <a href="#work">
           <img src={logo} className="logo" alt="logo" />
         </a>
         <div className="nav-links">
-          <a href="#about">
-            <li>HOME</li>
+          <a href="#resume">
+            <li>work</li>
           </a>
-          <a href="#work">
-            <li>WORK</li>
+          <a href="#contact">
+            <li>resume</li>
           </a>
           <a href="#resume">
-            <li>RESUME</li>
+            <li>contact</li>
           </a>
         </div>
       </ul>
