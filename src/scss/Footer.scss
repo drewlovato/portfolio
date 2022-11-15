@@ -1,0 +1,24 @@
+.footer-section{
+    width: 2rem;
+    
+
+    .footer-ul {
+        display: flex;
+        align-content: flex-end;
+        flex-direction: column;
+        width: 1.5rem;
+        z-index: 7;
+
+        .svgEmail{
+            width: 100%;
+            margin-bottom: 1rem;
+            cursor: pointer;
+        }
+
+        .svgGitHub{
+            width:100%;
+            margin-bottom: 1rem;
+            cursor: pointer;
+        }
+    }
+}

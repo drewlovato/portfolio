@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 // HEADER & FOOTER COMPONENTS
 import NavBar from "./NavBar";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 
 // PAGE COMPONENTS
 import Work from "./pages/Work";
@@ -31,6 +31,7 @@ export default function PageLayout() {
     <div>
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>{render()}</main>
+      <Footer />
     </div>
   );
 }

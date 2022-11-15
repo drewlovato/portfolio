@@ -7,7 +7,7 @@ function Work() {
   return (
     <>
       <section className="work-section">
-        <h1>Work</h1>
+        <h1>the Works</h1>
         <div className="work-cards">
           {projects.map((projects) => (
             <SingleProject

@@ -2,21 +2,17 @@
 $primaryFont: 'Arial', 'sans-serif';
 $primaryColor: grey;
 
-.logo{
-    width: 25%;
-}
 
 .nav-section{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin: 0;
-
+    margin: 2rem;
 
     .nav-ul {
         width: 100%;
         display: flex;
         align-items: center;
+        justify-content: space-between;
 
         .logo{
             width: 10%;
@@ -34,6 +30,11 @@ $primaryColor: grey;
             margin: 0 2rem 0 2rem;
             font-family: $primaryFont;
             color: $primaryColor;
+        }
+
+        .nav-links a:hover{
+            border: red;
+            border-width: 1rem;
         }
     }
 

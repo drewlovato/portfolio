@@ -1,6 +1,11 @@
-@import "Contact";
-@import "Home";
+// Components
 @import "NavBar";
+@import "Footer";
+// @import "NavBarHam";
+
+// Pages
+@import "reset";
+@import "Contact";
 @import "Resume";
 @import "Work";
 

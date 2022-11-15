@@ -1,0 +1,32 @@
+.about-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 5rem;
+
+    .profile-photo{
+        width: 30%;
+        margin: 2rem;
+    }
+
+    .type-section{
+        justify-items: center;
+        margin: 3rem;
+        width: 50%;
+
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .about-paragraph{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+        }
+
+    }
+
+    
+}
