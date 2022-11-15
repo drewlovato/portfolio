@@ -1,42 +1,21 @@
-// FONT VARIABLES
-$primaryFont: 'Arial', 'sans-serif';
-$primaryColor: grey;
-
-
 .nav-section{
     width: 100%;
-    display: flex;
-    margin: 2rem;
 
-    .nav-ul {
+    .nav-ul{
         width: 100%;
+        margin: 2rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        .logo{
-            width: 10%;
+        img {
+            width: 2rem;
         }
 
-        .nav-links{
+        nav-links{
             display: flex;
-            list-style: none;
-            flex-direction: flex-end;
-        }
+            justify-content: flex-end;
 
-        .nav-links a{
-            display: flex;
-            text-decoration: none;
-            margin: 0 2rem 0 2rem;
-            font-family: $primaryFont;
-            color: $primaryColor;
-        }
-
-        .nav-links a:hover{
-            border: red;
-            border-width: 1rem;
         }
     }
-
-   
 }
