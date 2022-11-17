@@ -1,0 +1,65 @@
+$font-color: orange;
+$font-family-1: Arial, sans-serif;
+$font-family-2: Helvetica;
+$font-size-1: 1rem;
+$font-size-2: 1.5rem;
+$font-size-3: 2rem;
+
+
+
+.work-section{
+    width: 100%;
+
+    h1{
+        font-family: $font-family-1;
+        color: orange;
+        font-size: $font-size-2;
+        text-align: center;
+        margin: 2rem;
+    }
+
+    .work-cards{
+        max-width: 100%;
+        margin: 3rem;
+
+        article{
+            margin-bottom: 3rem;
+        }
+
+        h3{
+            margin-bottom: 2rem;
+            
+            a{
+                font-family: $font-family-1;
+                color: grey;
+                font-size: $font-size-2;
+                text-decoration: none;
+            }
+
+        }
+
+        img{
+            max-width: 100%;
+            margin-bottom: 2.5rem;
+            box-shadow: 20px 20px 50px rgb(174, 174, 174);
+        }
+
+        img:hover {
+            -webkit-transform: scale(.98);
+            -ms-transform: scale(.98);
+            transform: scale(.98);
+            transition: 1s ease-in-out;
+
+        }
+
+        p {
+            font-family: $font-family-2;
+            font-weight: 200;
+            color: grey;
+            font-size: $font-size-1;
+            padding: 0 1rem 0 1rem;
+            margin-bottom: 1rem;
+        }
+
+    }
+}

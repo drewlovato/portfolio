@@ -3,6 +3,7 @@ import React from "react";
 // Icons for Social Media
 import svgEmail from "../../src/assets/svgEmail.svg";
 import svgGitHub from "../../src/assets/svgGitHub.svg";
+import svgLinkedIn from "../../src/assets/svgLinkedIn.svg";
 
 export default function NavBar() {
   return (
@@ -13,6 +14,12 @@ export default function NavBar() {
         </a>
         <a href="https://github.com/drewlovato" className="lovato-github">
           <img src={svgGitHub} className="svgGitHub" alt="GitHub Logo" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alovato/"
+          className="lovato-linkedin"
+        >
+          <img src={svgLinkedIn} className="svgLinkedIn" alt="LinkedIn Logo" />
         </a>
       </ul>
     </div>

@@ -9,9 +9,9 @@ export default function NavBar({ currentPage, handlePageChange }) {
     <div className="nav-section">
       <ul className="nav-ul">
         <a
-          href="#work"
-          onClick={() => handlePageChange("Work")}
-          className={currentPage === "Work" ? "active" : ""}
+          href="#resume"
+          onClick={() => handlePageChange("Resume")}
+          className={currentPage === "Resume" ? "active" : ""}
         >
           <img src={logo} className="logo" alt="Logo" />
         </a>

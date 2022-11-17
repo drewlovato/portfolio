@@ -1,0 +1,93 @@
+$font-color-1: orange;
+$button-color-1: orange;
+$button-color-hover: rgb(255, 190, 70);
+$background-color: rgb(186, 186, 186);
+$font-family-1: Arial, sans-serif;
+$font-family-2: Helvetica;
+$font-size-1: 1rem;
+$font-size-2: 1.5rem;
+$font-size-3: 2rem;
+
+.contact-container {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    height: 25rem;
+    background-color: white;
+    box-shadow: 20px 20px 50px rgb(174, 174, 174);
+    margin: 3rem 3rem 5rem 3rem;
+    padding: 4rem;
+
+        .contact-form {
+            display: block;
+            justify-content: center;
+            width: 50%;
+
+            .contact-header{
+            font-family: $font-family-1;
+            width: 100%;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            color: $font-color-1;
+            display: flex;
+            justify-content: center;
+            }
+
+            input {
+                width: 100%;
+                background-color: $background-color;
+                border: none;
+                height: 2rem;
+                padding-left: 1rem;
+                color: white;
+                margin-bottom: 1rem;
+                
+                .txtInput{
+                    color: white;
+                }
+            }
+
+            textarea{
+                width: 100%;
+                background-color: $background-color;
+                border: none;
+                height: 5rem;
+                padding: .5rem 1rem .5rem 1rem;
+                color: white;
+                margin-bottom: 1rem;
+            }
+
+            .button-section{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .btnSubmit {
+                    width: 100%;
+                    background-color: $button-color-1;
+                    font-family: $font-family-1;
+                    font-weight: 600;
+                    height: 3rem;
+                    border: none;
+                    color: white;
+                    cursor: pointer;
+                }
+
+                .btnSubmit:hover {
+                    background-color: $button-color-hover;
+                    transition: .5s;
+                }
+
+            }
+        }
+
+        .greeting-section {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            font-family: $font-family-1;
+        }
+            
+}

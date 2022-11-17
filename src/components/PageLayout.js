@@ -11,7 +11,7 @@ import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 export default function PageLayout() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("Resume");
 
   const render = () => {
     if (currentPage === "Work") {
